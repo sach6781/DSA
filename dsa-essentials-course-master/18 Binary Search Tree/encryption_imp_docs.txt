@@ -1,0 +1,23 @@
+https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-encryption.html
+
+https://github.com/aws-samples/field-level-encryption-sample/blob/master/lambda/fle_decrypt_data.py
+
+https://console.aws.amazon.com/cloudfront/v3/home?region=us-east-1#/encryption
+https://console.aws.amazon.com/lambda/home?region=us-east-1#/functions/dev-healthcheckapps2-hca-user-lambda?tab=code
+https://us-east-1.console.aws.amazon.com/apigateway/home?region=us-east-1#/apis/fcfil2k660/resources/xv5u1hxuef
+https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logsV2:log-groups/log-group/$252Faws$252Flambda$252Fdev-healthcheckapps2-hca-user-lambda/log-events/2022$252F02$252F03$252F$255B$2524LATEST$255Df068c7d6ec284a309f855ce2b0e7be40
+https://buildmedia.readthedocs.org/media/pdf/chalice/latest/chalice.pdf
+
+https://aws.amazon.com/blogs/security/how-to-enhance-the-security-of-sensitive-customer-data-by-using-amazon-cloudfront-field-level-encryption/
+
+openssl genrsa -out private_key.pem 1024
+
+
+openssl req -outform der -in key.pem -out key.der
+
+openssl req -in key.pem -out key.der -outform DER
+
+
+https://medium.com/@ashiqgiga07/asymmetric-cryptography-with-python-5eed86772731
+
+https://nitratine.net/blog/post/asymmetric-encryption-and-decryption-in-python/
